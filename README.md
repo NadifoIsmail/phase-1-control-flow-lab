@@ -138,7 +138,7 @@ It seems like that expression should evaluate to `false` because `5` is not less
 than `4`. However, we're forgetting about the order of operations — let's
 think about how the JavaScript engine evaluates that expression. First, the
 engine compares `2 < 5`, which evaluates to `true`. At that point, it's as
-though the value `true` has replaced `2 < 5` in the expression, resulting in
+though the valugit@github.com:NadifoIsmail/phase-1-control-flow-lab.gite `true` has replaced `2 < 5` in the expression, resulting in
 `true < 4`. The engine sees that we're trying to compare a non-number (`true`)
 against a number (`4`), and under the hood it converts `true` into a number:
 
